@@ -1,0 +1,220 @@
+.filterTabs__container {
+    position: fixed;
+    margin-left: .5%;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.filterTabs__link {
+    text-decoration: none;
+}
+
+#filterTabs__all,
+#filterTabs__free,
+#filterTabs__premium,
+#filterTabs__15min,
+#filterTabs__30min,
+#filterTabs__weights,
+#filterTabs__athletics,
+#filterTabs__dance,
+#filterTabs__yoga,
+#filterTabs__tone,
+#filterTabs__weightloss,
+#filterTabs__fullbody,
+#filterTabs__lowerbody,
+#filterTabs__upperbody,
+#filterTabs__lowerbody,
+#filterTabs__sexyabs,
+#filterTabs__pilates,
+#filterTabs__hittcardio {
+    /* background-color: rgb(10, 196, 171); */
+    border-radius: 10px;
+    font-size: 12px;
+    width: 98px;
+    height: 39px;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    align-content: center;
+    padding-top: 7%;
+    opacity: .85;
+    margin-right: 10px;
+    box-shadow: none;
+    text-transform: lowercase;
+}
+
+#filterTabs__all {
+    background-color: white;
+    border: 1px solid purple;
+    color: purple;
+}
+
+#filterTabs__all:hover {
+    background-color: purple;
+    /* border: 1px solid purple; */
+    color: white;
+}
+
+#filterTabs__free {
+    background-color: rgb(10, 196, 171);
+}
+
+#filterTabs__free:hover {
+    background-color: white;
+    border: 1px solid rgb(10, 196, 171);
+    color: rgb(10, 196, 171);
+}
+
+#filterTabs__premium {
+    background-color: rgb(81, 209, 7);
+}
+
+#filterTabs__premium:hover {
+    background-color: white;
+    border: 1px solid rgb(81, 209, 7);
+    color: rgb(81, 209, 7);
+}
+
+#filterTabs__15min {
+    background-color: purple;
+}
+
+#filterTabs__15min:hover {
+    background-color: white;
+    border: 1px solid purple;
+    color: purple;
+}
+
+#filterTabs__30min {
+    background-color: rgb(22, 53, 224);
+}
+
+#filterTabs__30min:hover {
+    background-color: white;
+    border: 1px solid rgb(22, 53, 224);
+    color: rgb(22, 53, 224);
+}
+
+#filterTabs__weights {
+    background-color: gray;
+}
+
+#filterTabs__weights:hover {
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+}
+
+#filterTabs__athletics {
+    background-color: rgb(209, 15, 15);
+}
+
+#filterTabs__athletics:hover {
+    background-color: white;
+    border: 1px solid rgb(209, 15, 15);
+    color: rgb(209, 15, 15);
+}
+
+#filterTabs__dance {
+    background-color: palevioletred;
+}
+
+#filterTabs__dance:hover {
+    background-color: white;
+    border: 1px solid palevioletred;
+    color: palevioletred;
+}
+
+#filterTabs__yoga {
+    background-color: gold;
+}
+
+#filterTabs__yoga:hover {
+    background-color: white;
+    border: 1px solid gold;
+    color: gold;
+}
+
+#filterTabs__tone {
+    background-color: teal;
+}
+
+#filterTabs__tone:hover {
+    background-color: white;
+    border: 1px solid teal;
+    color: teal;
+}
+
+#filterTabs__weightloss {
+    background-color: rgb(79, 165, 165);
+}
+
+#filterTabs__weightloss:hover {
+    background-color: white;
+    border: 1px solid rgb(79, 165, 165);
+    color: rgb(79, 165, 165);
+}
+
+#filterTabs__fullbody {
+    background-color: grey;
+}
+
+#filterTabs__fullbody:hover {
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+}
+
+#filterTabs__upperbody {
+    background-color: purple;
+}
+
+#filterTabs__upperbody:hover {
+    background-color: white;
+    border: 1px solid purple;
+    color: purple;
+}
+
+#filterTabs__lowerbody {
+    background-color: plum;
+}
+
+#filterTabs__lowerbody:hover {
+    background-color: white;
+    border: 1px solid plum;
+    color: plum;
+}
+
+#filterTabs__sexyabs {
+    background-color: rgb(209, 15, 15);
+}
+
+#filterTabs__sexyabs:hover {
+    background-color: white;
+    border: 1px solid rgb(209, 15, 15);
+    color: rgb(209, 15, 15);
+}
+
+#filterTabs__pilates {
+    background-color: teal;
+}
+
+#filterTabs__pilates:hover {
+    background-color: white;
+    border: 1px solid teal;
+    color: teal;
+}
+
+#filterTabs__hittcardio {
+    background-color: gray;
+}
+
+#filterTabs__hittcardio:hover {
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+}
